@@ -1,0 +1,1 @@
+::entity!:: @Table(schema = " ", name = " ") @Entity @Column(name = " ") @Id @GeneratedValue (generator = "auto_increment ",strategy = GenerationType.IDENTITY) @SequenceGenerator(allocationSize = 1, name = " ", sequenceName = " ")  ^!l

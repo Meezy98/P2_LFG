@@ -1,0 +1,33 @@
+<div id="profileInfoBox">
+  <div id="profileInfo" class="displayProfile">
+    
+    <a *ngIf="stats"><img [src]="stats._avaterFull"></a><br>
+    <label>Username: </label><br />
+    <h2>{{currentUser.username}}</h2><br>
+
+    <label>First Name: </label><br />
+    <h2>{{currentUser.firstName}}</h2><br>
+
+    <label>Last Name: </label><br />
+    <h2>{{currentUser.lastName}}</h2><br>
+
+    <label>Email Address: </label><br />
+    <h2>{{currentUser.email}}</h2><br>
+
+    <label>Steam Profile URL: </label><br />
+    <div id="urlBox">
+      <a  *ngIf="stats" href="{{stats._profileURL}}" target="_blank" rel="noreferrer noopener">
+        {{stats._profileURL}}
+      </a>
+    </div><br><br>
+  </div>
+</div>
+<div id="buttonBox">
+  <button id="profileModifyButton" (click)="modifyProfile()">Edit your Information</button>
+  <br><br>
+  <button id="credentialModifyButton" (click)="modifyCredential()">Edit Login Credentials</button>
+  <br><br>
+  <button id="socialViewButton" (click)="viewSocials()">View Social Profile</button>
+  <br><br>
+  <button id="backToMainButton" (click)="goToMain()">Go Back</button>
+</div>

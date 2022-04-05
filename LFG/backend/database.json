@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "ChrisS",
+      "email": "myemail@email.com",
+      "firstName": "Chris",
+      "lastName": "Scullin",
+      "password": "pass123",
+      "stats": "",
+      "appCount": 0,
+      "inGroup": false
+    },
+    {
+      "username": "jojojo",
+      "email": "jojojo",
+      "password": "pass123",
+      "id": "W-UnOo9"
+    }
+  ]
+}

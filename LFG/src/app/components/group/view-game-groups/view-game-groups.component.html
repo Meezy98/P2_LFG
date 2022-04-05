@@ -1,0 +1,16 @@
+<div id="buttonBox">
+    <button type="button" id="goMainPageButton" class="mainPageButton" (click)="goToMain()">Main Page</button>
+    <br>
+    <button (click)="goToCreateGroup()">Create Group</button>
+</div>
+
+<div id="infoBox" class="viewGroups">
+    <p id="gameTitle">{{game.name}}</p>
+    <a><img [src]="game.imgLink"></a>
+</div>
+<div id="groupBox" class="viewGroups" *ngIf="groupSessions">
+    <div>    
+        <app-group-card [groupSessions] = "groupSessions" [gameId]="gameId"></app-group-card>
+    </div>    
+</div>
+ 

@@ -1,0 +1,53 @@
+#mainDisplayBox {
+    padding: 0;
+}
+
+#profileDisplayBox {
+    position: sticky;
+    top: 1in;
+    left: 1in;
+    border-style: groove;
+    border-color: rgb(25, 77, 5);
+    border-width: 0.6em;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgb(35, 167, 35), rgb(15, 15, 15));
+    
+    width: 4in;
+    height: 2.3in;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.profileDisplayButtons {
+    margin-top: 1.5em;
+    margin-left: 3em;
+}
+
+#joinedGroupsButton {
+    margin-left: 7.5em;
+    margin-top: 4em;
+}
+
+#hostViewButton {
+    margin-left: 6em;
+    margin-top: 4em;
+}
+
+#name {
+    color: yellow;
+    font-weight: bolder;
+    border-style: double;
+    border-color: chartreuse;
+    border-top: 5px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    width: 3.3in;
+    height: 0.5in;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(27, 161, 27, 0), rgb(8, 54, 2));
+}

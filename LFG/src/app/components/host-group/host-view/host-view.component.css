@@ -1,0 +1,28 @@
+
+#bigBox {
+    margin: auto;
+    width: 6in;
+    text-align: center;
+}
+
+#name {
+    font: 2em sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#groupBox {
+    border-style: groove;
+    border-color: yellowgreen;
+    border-width: 6px;
+    background-color:rgb(74, 187, 46);
+} 
+
+#buttonBox {
+    margin: auto;
+    width: 3in;
+}
+
+#waitBox {
+    width: 6in;
+}

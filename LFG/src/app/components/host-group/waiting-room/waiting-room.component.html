@@ -1,0 +1,19 @@
+
+<div *ngFor="let applicant of waitingUsers;">
+    <div id="wait">
+
+        <p id="name">{{ applicant.username }}</p> 
+        
+        <div id="bGroup">
+            <button (click)="viewAchievements(applicant)">View Achievements</button>
+            <button (click)="addingUserFromWaitingRoom(applicant)">Acccept</button>
+            <button (click)="removingUserFromWaitingRoom(applicant)">Decline</button>
+        </div>
+        
+        <div *ngIf="viewStats">
+            <app-user-stats
+                [applicant]="applicant"
+            ></app-user-stats>
+        </div>
+    </div>
+</div>

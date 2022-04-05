@@ -1,0 +1,29 @@
+img {
+    width: 5in;
+    height: 3in;
+    margin-left: 3em;
+}
+
+h1 {
+    width: 5.84in;
+    font: 2.5em sans-serif;
+    font-weight: bolder;
+    border-style: dotted;
+    background-color: rgb(13, 156, 13);
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: yellow;
+}
+
+#gameBox {
+    margin: auto;
+    padding: auto;
+    width: 6in;
+    border-style: ridge;
+    border-width: 0.5em;
+    border-color: yellowgreen;
+    background-color:darkgreen;
+}

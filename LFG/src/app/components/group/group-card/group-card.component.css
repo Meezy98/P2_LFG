@@ -1,0 +1,44 @@
+#id {
+    font-weight: bold;
+    border-style: inset;
+    border-width: 5px;
+    border-color: lightgreen;
+    background-color:forestgreen;
+    width: 2.5in;
+    padding: 3px;
+    text-align: center;
+}
+
+#desc {
+    width: 4.5in;
+    height: 1in;
+    border-style: groove;
+    border-color: lightgreen;
+    background-color: yellowgreen;
+}
+
+#count {
+    width: 2in;
+    float: right;
+    border-style: groove;
+    border-color: lightgreen;
+    background-color: lightgreen;
+    border-radius: 10%;
+    text-align: center;
+    transform: translate(5%, -88%);
+}
+
+#requestButton {
+    float: right;
+    transform: translate(-15%, -140%);
+}
+
+#groupBox {
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(45, 146, 5);
+    background-color:rgb(74, 187, 46);
+    padding: 15px;
+    height: 2in;
+}
+

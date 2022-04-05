@@ -1,0 +1,21 @@
+<div id="bigBox">
+<div id="groupBox">
+    <h1>Viewing Session</h1>
+    <div id="name">
+        <h4>Host: {{insideGroup._hostUser.username}}</h4>
+    </div>    
+    <h4>Game: {{insideGroup._groupDetails.game.gametitle}}</h4>
+    <img [src]="insideGroup._groupDetails.game.imglink">
+    <div *ngFor="let members of insideGroup._groupMembers">
+        <div *ngIf="members.username != insideGroup._hostUser.username">
+            <div id="name">
+                <p>username: {{members.username}}</p>
+            </div>
+        </div>
+    </div>
+    <div id="buttonBox">   
+        <button type="button" (click)="leaveSession()">Leave Group</button>
+        <button type="button" (click)="goMainPage()">Main Page</button>
+    </div>
+    </div>
+</div>

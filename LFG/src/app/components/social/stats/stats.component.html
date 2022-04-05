@@ -1,0 +1,7 @@
+
+<div *ngFor="let stat of stats">
+    <div *ngIf="stat.value > 10000">
+        <p id="statLine">{{stat.name}} : {{stat.value}}</p>
+    </div>
+</div>
+

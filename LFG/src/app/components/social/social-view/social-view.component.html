@@ -1,0 +1,13 @@
+
+<ng-container id="socialBox"
+    *ngIf="validSocial; then viewProfile; else linkProfile">
+</ng-container>
+
+<ng-template #viewProfile>
+    <app-social-profile></app-social-profile>
+</ng-template> 
+
+<ng-template #linkProfile>
+    <app-add-socials></app-add-socials>
+</ng-template>
+

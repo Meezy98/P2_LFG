@@ -1,0 +1,28 @@
+<div id="profileDisplayBox" class="mainGroup">
+    <div id="iconHolder" class="profileDisplayGroup">
+      <br><a *ngIf="stats"><img [src]="stats._avatarMedium"></a><br>
+      <h2 id="name">{{currentUser.username}}</h2>
+    </div>
+    <button id="profileDisplayButton" class="profileDisplayButtons" (click)="goToProfile()">View Profile</button>
+    <button id="logOutButton" class="profileDisplayButtons" (click)="logOut()">Log Out</button>
+    
+    <div *ngIf="hostGroupPanel">
+      <button id="hostViewButton" class="hostDisplayGroup" (click)="goToSession()">View Hosted Session</button>
+    </div>
+  
+    <div *ngIf="joinGroupPanel">
+      <button id="joinedGroupsButton" class="joinDisplay" (click)="goToUserGroup()">View Group</button>
+    </div>
+  </div>
+
+<div id="mainBox" class="mainGroup">
+  <div id="mainDisplayBox" class='mainGroup'>
+    <div>
+      <div *ngIf="!hostGroupPanel">
+        <app-game-display></app-game-display>
+      </div>
+    </div>
+  
+    </div>
+
+</div>

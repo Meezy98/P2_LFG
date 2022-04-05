@@ -1,0 +1,21 @@
+<h1 id="top">Waiting Room</h1>
+    
+<button type="button" (click)="goMainPage()">Main Page</button>
+
+<div *ngFor="let group of joinedSession">
+    <div id="groupBox">
+        <div id="id">
+            <h2 id="gid">Group Id: {{group.groupId}}</h2>
+            <h3 id="game">Game: {{group.sessionDetails.game.gametitle}}</h3>
+        </div>
+        <div id="count">
+            <h4>Current Users: {{group.sessionDetails.currentusers}}</h4>
+            <h4>Max Users: {{group.sessionDetails.maxusers}}</h4>
+        </div>
+        <p id="desc">{{group.sessionDetails.description}}</p>        
+        <button id="leaveButton" type="button" (click)="leaveSession(group.groupId, group.sessionDetails.game.gameid)">Leave Group</button>
+    </div> 
+</div>
+
+
+    

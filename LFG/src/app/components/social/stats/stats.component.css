@@ -1,0 +1,8 @@
+#statLine {
+    border-style: outset;
+    border-color:chartreuse;
+    color: yellow;
+    background-color:darkolivegreen;
+    margin: 3px;
+    padding: 5px;
+}

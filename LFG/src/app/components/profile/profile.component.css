@@ -1,0 +1,34 @@
+h2 {
+    border-style: inset;
+    border-color: greenyellow;
+    background-color: chartreuse;
+    width: 5in;
+    height: 0.5in;
+}
+
+#urlBox {
+    border-style: inset;
+    border-color: greenyellow;
+    background-color: chartreuse;
+    width: 5in;
+    height: 0.3in;
+    font: 17px sans-serif;
+    font-weight: bold;
+}
+
+#profileInfoBox {
+    padding-left: 40px;
+    margin: auto;
+    width: 6in;
+    height: 6.3in;
+    border-style: groove;
+    border-color: chartreuse;
+    border-width: 7px;
+    background-color: darkgreen;
+    transform: translate(0%, 20%);
+}
+
+#buttonBox {
+    position: absolute;
+    top: .5in;
+}

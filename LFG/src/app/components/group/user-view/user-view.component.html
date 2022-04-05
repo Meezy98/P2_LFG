@@ -1,0 +1,17 @@
+<ng-container
+    *ngIf="insideSession; then sessionView; else waitingRoom">
+</ng-container>
+
+<ng-template #sessionView>
+    <app-group-session
+        [insideGroup]="insideGroup">
+    </app-group-session>
+</ng-template> 
+
+<ng-template #waitingRoom>
+    <app-user-waiting-room
+        [joinedSession]="joinedSession"
+        (insideSessionEvent)="insideSessionCheck($event)"
+        (insideGroupEvent)="joinedGroup($event)">
+    </app-user-waiting-room>
+</ng-template>

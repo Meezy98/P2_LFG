@@ -1,0 +1,9 @@
+com\revature\p2_lfg\h2\H2DbTest.class
+com\revature\p2_lfg\service\game\classes\GameServiceTest.class
+com\revature\p2_lfg\utility\validation\loginValidationTest.class
+com\revature\p2_lfg\service\profile\classes\SocialsServiceTest.class
+com\revature\p2_lfg\service\session\classes\SessionServiceTest.class
+com\revature\p2_lfg\ApplicationTests.class
+com\revature\p2_lfg\service\login\classes\LoginServiceTest.class
+com\revature\p2_lfg\service\profile\classes\ProfileServiceTest.class
+com\revature\p2_lfg\utility\JWTUtilityTest.class

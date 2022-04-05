@@ -1,0 +1,13 @@
+.login-form-group {
+    padding: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+#linkBox {
+    margin: auto;
+    width: 5in;
+    height: 5in;
+    transform: translate(0%, 60%);
+}

@@ -1,0 +1,36 @@
+<div id="bigBox">
+    <div id="groupBox">
+        <h2 id="name">{{group._groupLead.username}}</h2>
+        <br>
+        <div>
+            <p class="info">{{group._groupDetails.description}}</p>
+            <p class="info">{{currentUsers}} of {{group._groupDetails.maxusers}}</p>
+        </div>
+        <br>
+
+        <app-group-members
+            [groupMembers]="group._groupMembers"
+            [hostUsername]="group._groupLead.username"
+            (removeUser)="removeMember($event)">
+        </app-group-members>
+
+        <div id="buttonBox">
+            <br>
+            <button type="button" (click)="disbandGroup()">Disband Group</button>
+            <button type="button" (click)="goMainPage()">Main Page</button>
+            <br>
+        </div>
+    </div>   
+        
+    <div id="waitBox"> 
+        <div>
+            <app-waiting-room
+                [waitingUsers]="group._waitingUsers"
+                (newMember)="addMember($event)"
+                (removeMember)="removeMember($event)">
+            </app-waiting-room>
+        </div>
+    </div>
+    
+</div>
+

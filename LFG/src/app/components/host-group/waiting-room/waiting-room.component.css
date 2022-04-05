@@ -1,0 +1,26 @@
+#wait {
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 20%;
+    border-color: rgb(45, 146, 5);
+    background-color:rgb(38, 121, 17);
+    padding: 15px;
+}
+
+#name {
+    font-weight: bold;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 20%;
+    border-color: lightgreen;
+    background-color:forestgreen;
+    width: 1.7in;
+    padding: 3px;
+    text-align: center;
+    transform: translate(0%, 10%);
+}
+
+#bGroup {
+    float: right;
+    transform: translate(0%, -100%);
+}

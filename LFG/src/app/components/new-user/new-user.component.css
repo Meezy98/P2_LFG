@@ -1,0 +1,15 @@
+#register-form {
+    margin: auto;
+    width: 6in;
+    height: 7in;
+    transform: translate(0%, 20%);
+}
+
+#backButton {
+    margin-right: 2em;
+    float: right;
+}
+
+label {
+    color:yellow;
+}

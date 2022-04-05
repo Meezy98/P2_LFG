@@ -1,0 +1,9 @@
+<div>
+    <p>Total Achievements: {{achievements}}</p>
+</div>
+
+<div *ngFor="let stat of userStats">
+    <div *ngIf="stat.value > 10000">
+        <p>{{stat.name}} : {{stat.value}}</p>
+    </div>
+</div>

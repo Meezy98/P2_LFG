@@ -1,0 +1,27 @@
+img {
+    width: 6.88in;
+    height: 4in;
+}
+
+.viewGroups {
+    margin: auto;
+    width: 7in;
+}
+
+#buttonBox {
+    position: sticky;
+    top: 1in;
+}
+
+#gameTitle {
+    font: 3em sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#infoBox {
+    border-style: groove;
+    border-color: yellowgreen;
+    border-width: 6px;
+    background-color:rgb(74, 187, 46);
+}

@@ -1,0 +1,12 @@
+
+<div *ngFor="let group of groupSessions">
+    <div id="groupBox">
+        <h2 id="id">Group Id: {{group.groupid}}</h2>
+        <div id="count">
+            <h4>Current Users: {{group.currentusers}}</h4>
+            <h4>Max Users: {{group.maxusers}}</h4>
+        </div>
+        <p id="desc">{{group.description}}</p>
+        <button id="requestButton" (click)="groupRequest(group)">Request to Join</button>
+    </div>
+</div>

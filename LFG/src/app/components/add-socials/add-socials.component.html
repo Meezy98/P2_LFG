@@ -1,0 +1,27 @@
+<div id="linkBox">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">     
+        <div class="login-form-group">
+            <label>Enter your Steam ID</label>
+            <input
+                type="text"
+                id="steamId"
+                name="steamId"
+                formControlName="steamId"
+                class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f['steamId'].errors }"
+            />
+        <div *ngIf="submitted && f['steamId'].errors" class="invalid-feedback">
+          <div *ngIf="f['steamId'].errors['required']">Steam ID is required</div>         
+        </div>
+        <div class="login-form-group">
+            <button type="submit" class="btn btn-primary">Link Profile</button>
+          </div>
+    
+          <div class="alert alert-warning" *ngIf="submitted && isLinkFailed">
+            {{ errorMessage }}
+          </div>
+      </div>
+    </form>
+    <br>
+    <button name="backToProfileButton" (click)="goToProfile()">Back to Profile</button>
+</div>

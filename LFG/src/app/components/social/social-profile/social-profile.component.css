@@ -1,0 +1,37 @@
+img {
+    width: 5in;
+    height: 3in;
+    margin-left: 3em;
+}
+
+h1 {
+    width: 5.84in;
+    font: 2.5em sans-serif;
+    font-weight: bolder;   
+    
+    text-align: center;
+}
+
+#title {
+    border-style: dotted;
+    background-color: rgb(13, 156, 13);
+} 
+
+body {
+    margin: auto;
+}
+
+#sBox {
+    margin: auto;
+    width: 6in;
+    border-style: ridge;
+    border-width: 0.5em;
+    border-color: yellowgreen;
+    background-color:darkgreen;
+}
+
+#goMainPageButton {
+    position: sticky;
+    top: 1in;
+    left: 1in;
+}
