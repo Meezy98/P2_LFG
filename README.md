@@ -1,6 +1,21 @@
 # P2_LFG
 
 Project 2 - Looking for Gamers
+Looking For Gamers is a service that helps users find and join other gamers for short-term cooperative and multiplayer gameplay.  Users create profiles and search for their favorite games to play.  Each game provides multiple groups of players to join as well as the ability for users to create their own groups.  
+
+
+Responsibilities:
+•	Host RDS and implement all database tables
+•	Set up JPA models in relation to existing database tables
+•	Set up Jenkins pipeline for backend build
+•	Implement DAO layer using Spring Data JPA
+•	Test service layer implementations using H2 in-memory database
+•	Implement logging throughout the backend using Spring AOP
+•	Host frontend on Angular through a static S3 bucket
+•	Set up endpoints on the backend using Spring MVC, and Angular's HTTPClientModule on the frontend
+Environment:
+Java, Spring, Angular, Jenkins, Hibernate, TypeScript, EC2, DevOps, Agile-Scrum, JUnit, SQL
+
 
 ### Conventions
 ___
