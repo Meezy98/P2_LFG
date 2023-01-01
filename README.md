@@ -13,7 +13,8 @@ Responsibilities:
 •	Implement logging throughout the backend using Spring AOP
 •	Host frontend on Angular through a static S3 bucket
 •	Set up endpoints on the backend using Spring MVC, and Angular's HTTPClientModule on the frontend
-Environment:
+
+-Environment:
 Java, Spring, Angular, Jenkins, Hibernate, TypeScript, EC2, DevOps, Agile-Scrum, JUnit, SQL
 
 
